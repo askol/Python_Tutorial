@@ -1,0 +1,32 @@
+site_name: Python Tutorial
+nav:
+  - Home: index.md
+  - Basics:
+      - Introduction: basics/introduction.md
+      - Data Types: basics/data_types.md
+      - Control Flow: basics/control_flow.md
+  - Advanced:
+      - Functions: advanced/functions.md
+      - Modules: advanced/modules.md
+      - File I/O: advanced/file_io.md
+  - About: about.md
+theme:
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+extra_css:
+  - 'css/custom.css'
