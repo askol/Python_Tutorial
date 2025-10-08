@@ -2,13 +2,20 @@ site_name: Python Tutorial
 nav:
   - Home: index.md
   - Basics:
-      - Introduction: basics/introduction.md
-      - Data Types: basics/data_types.md
-      - Control Flow: basics/control_flow.md
+    - Introduction: basics/introduction.md
+    - Data Types: basics/data_types.md
+    - Control Flow: basics/control_flow.md
+  - Lessons:
+    - Setup (Windows): Lessons/1_1_Setup.md
+    - Getting Started: Lessons/lesson_01_getting_started.md
+    - Data Types: Lessons/lesson_02_data_types.md
+    - Control Flow: Lessons/lesson_03_control_flow.md
+    - Functions: Lessons/lesson_04_functions.md
+    - Assets README: Lessons/assets/README.md
   - Advanced:
-      - Functions: advanced/functions.md
-      - Modules: advanced/modules.md
-      - File I/O: advanced/file_io.md
+    - Functions: advanced/functions.md
+    - Modules: advanced/modules.md
+    - File I/O: advanced/file_io.md
   - About: about.md
 theme:
   name: material
@@ -30,3 +37,10 @@ markdown_extensions:
   - pymdownx.tabbed
 extra_css:
   - 'css/custom.css'
+
+# Optional Material theme settings you can enable later (example only):
+# theme:
+#   features:
+#     - navigation.expand
+#     - navigation.sections
+# To add icons next to nav items install "material for mkdocs" icons and set `icon` fields in nav entries.
